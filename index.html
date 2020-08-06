@@ -27,7 +27,7 @@
         </nav>
       </div>
     <aside class="A8 ml-2 mr-2 ">
-        <div><H3 class="m-5">Making-of</H3></div>
+        <div><H3 class="ml-5">Making-of</H3></div>
           <div class="m-5">
               <h5>En el cine, el término inglés making-of (traducido como cómo se hizo, así se hizo, tras las cámaras o trascámara)1​ es un vídeo documental que muestra cómo fue la producción de una película o un programa de televisión, pero que también se puede aplicar a otras obras como videojuegos. A menudo se le conoce como un vídeo EPK (siglas en inglés de kit electrónico de prensa), ya que es típico que se agregue como instrumento de promoción en algunas películas o como extras de algún DVD.
 
@@ -53,13 +53,24 @@
 
 
     
-    <footer>
-                   
+    <footer class="A11 ml-2 mr-2 ">
+      <h4 class="ml-3 mt-3" >Si desea resivir algun contenido extra aparte del mostrado en la pagina, escriba sus datos en el siguiente formulario.</h4>
+      <h5 class="ml-3 mt-3">Nombre:</h5><input id="nom" placeholder="Leonardo" class="ml-3" type="text"> 
+      <h5 class="ml-3 mt-3">Apellido:</h5><input id="ape" placeholder="Ponce" class="ml-3" type="text">     
+      <h5 class="ml-3 mt-3">Gmail:</h5><input id="mail" placeholder="Guzman.a@gmail.com" class="ml-3" type="gmail">
+      <br><button class="ml-3 mt-3" onclick="enviar()">Enviar</button>
     </footer>
 
     <div class="mt-5">Creaded by: Leonardo Guzmán</div>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/jquery-3.5.1.slim.min.js" ></script>
       <script src="js/popper.min.js" ></script>
+      <script>
+        function enviar(){
+          document.getElementById("nom").value=""
+          document.getElementById("ape").value=""
+          document.getElementById("mail").value=""
+        }
+      </script>
 </body>
 </html>
