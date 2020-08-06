@@ -1,0 +1,81 @@
+.A1{
+    float: left;
+}
+.A2{
+
+}
+.A3{
+   float: left;
+}
+.A4{
+   float: left;
+}
+.A5{
+   float: left;
+}
+.A6{
+   height: 70px;
+}
+.A7{
+float: left;
+}
+.A8{
+   border: 2px solid brown;
+   margin-top: 150px;
+}
+.A9{
+    border: 2px solid brown;
+    margin-top: 150px;
+}
+.A10{
+    border: 2px solid brown;
+    margin-top: 150px;
+}
+.A11{
+    border: 2px solid brown;
+    margin-top: 150px;
+}
+.A13{
+     float: left;
+}
+.A12{
+    float: left;
+}
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
